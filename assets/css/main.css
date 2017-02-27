@@ -535,10 +535,14 @@ a {
 
 .site-socials {
   display: flex;
-  flex-wrap: nowrap; }
+  flex-wrap: nowrap;
+  font-size: 1.6em; }
 
 .social-item:not(:first-child) {
   margin-left: 20px; }
+
+.social-item:hover {
+  color: #CFD8DC; }
 
 .menu-link:not(:first-child) {
   margin-left: 20px; }
