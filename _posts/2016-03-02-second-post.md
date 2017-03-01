@@ -1,3 +1,8 @@
+---
+layout: post
+tags: [other]
+---
+
 Hello there! Or, should I say instead:
 
 {% highlight javascript %} var kurtle = function() { console.log("Hello world!"); };

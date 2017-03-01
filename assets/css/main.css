@@ -507,8 +507,6 @@ a {
   text-decoration: none; }
   a:hover {
     color: #CFD8DC; }
-  a:visited {
-    color: #fff; }
 
 .site-header {
   height: 56px;
@@ -545,6 +543,9 @@ a {
 
 .social-item:hover {
   color: #CFD8DC; }
+
+.social-item:visited {
+  color: #fff; }
 
 .menu-link {
   color: #fff; }
