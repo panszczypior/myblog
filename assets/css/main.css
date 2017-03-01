@@ -508,6 +508,23 @@ a {
   a:hover {
     color: #CFD8DC; }
 
+.tag-link {
+  display: inline-block;
+  background: #455A64;
+  color: #FFFFFF;
+  font-family: 'Dosis-light';
+  font-size: 14px;
+  padding: 0 0.5em;
+  margin-right: 10px;
+  border-radius: 4px; }
+  .tag-link:before {
+    content: '\f02b';
+    font-family: 'FontAwesome';
+    padding-right: 0.5em; }
+  .tag-link:hover {
+    background: #CFD8DC;
+    color: #455A64; }
+
 .site-header {
   height: 56px;
   background: #607D8B; }
