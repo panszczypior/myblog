@@ -504,8 +504,7 @@ template {
   font-family: 'Dosis-regular'; }
 
 a {
-  text-decoration: none;
-  color: #fff; }
+  text-decoration: none; }
   a:hover {
     color: #CFD8DC; }
 
@@ -531,7 +530,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #fff; }
 
 .site-socials {
   display: flex;
@@ -544,8 +544,10 @@ a {
 .social-item:hover {
   color: #CFD8DC; }
 
-.menu-link:not(:first-child) {
-  margin-left: 20px; }
+.menu-link {
+  color: #fff; }
+  .menu-link:not(:first-child) {
+    margin-left: 20px; }
 
 .page-content {
   padding: 30px 0; }
