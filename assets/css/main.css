@@ -510,7 +510,7 @@ a {
 
 .site-header {
   height: 56px;
-  background: #455A64; }
+  background: #607D8B; }
 
 .header-wrapper {
   display: flex;
@@ -556,6 +556,29 @@ a {
   max-width: calc(800px - (30px * 2));
   margin: 0 auto;
   padding: 0 30px; }
+
+.posts-list {
+  list-style-type: none;
+  margin: 0 0;
+  padding-left: 0; }
+  .posts-list > li {
+    margin-bottom: 30px; }
+    .posts-list > li > h2 {
+      margin-top: 0; }
+    .posts-list > li > p {
+      margin-top: 0; }
+
+.post-meta {
+  font-family: 'Dosis-light';
+  color: #455A64; }
+
+.post-link {
+  font-family: 'Dosis-bold';
+  color: #607D8B;
+  margin-top: 0; }
+
+.read-more-link {
+  color: #607D8B; }
 
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
