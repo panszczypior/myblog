@@ -507,6 +507,8 @@ a {
   text-decoration: none; }
   a:hover {
     color: #CFD8DC; }
+  a:visited {
+    color: #fff; }
 
 .site-header {
   height: 56px;
