@@ -525,6 +525,33 @@ a {
     background: #CFD8DC;
     color: #455A64; }
 
+.tags-container h2 {
+  font-family: 'Dosis-regular';
+  text-transform: uppercase; }
+
+.posts-list-expo {
+  list-style-type: circle;
+  list-style-position: inside;
+  padding-left: 0;
+  margin-top: 0; }
+
+.posts-list-expo__single-post {
+  margin-bottom: 5px;
+  padding: 0 1em;
+  transition: all 0.1s ease-in-out; }
+  .posts-list-expo__single-post:hover {
+    padding-left: 0;
+    color: #CFD8DC;
+    list-style-type: disc; }
+
+.posts-list-expo__tag-link {
+  color: #455A64; }
+  .posts-list-expo__tag-link:visited {
+    color: #455A64; }
+
+.posts-list-expo__date {
+  font-family: 'Dosis-light'; }
+
 .site-header {
   height: 56px;
   background: #607D8B; }
