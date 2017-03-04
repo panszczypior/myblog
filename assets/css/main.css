@@ -510,20 +510,20 @@ a {
 
 .tag-link {
   display: inline-block;
-  background: #455A64;
+  background: #CFD8DC;
   color: #FFFFFF;
   font-family: 'Dosis-light';
   font-size: 14px;
   padding: 0 0.5em;
-  margin-right: 10px;
+  margin-left: 5px;
   border-radius: 4px; }
   .tag-link:before {
     content: '\f02b';
     font-family: 'FontAwesome';
     padding-right: 0.5em; }
   .tag-link:hover {
-    background: #CFD8DC;
-    color: #455A64; }
+    background: #455A64;
+    color: #CFD8DC; }
 
 .tags-container h2 {
   font-family: 'Dosis-regular';
@@ -542,7 +542,8 @@ a {
   .posts-list-expo__single-post:hover {
     padding-left: 0;
     color: #CFD8DC;
-    list-style-type: disc; }
+    list-style-type: disc;
+    padding: 0 0.5em; }
 
 .posts-list-expo__tag-link {
   color: #455A64; }
@@ -585,7 +586,7 @@ a {
 .social-item:not(:first-child) {
   margin-left: 20px; }
 
-.social-item:hover {
+.social-item:hover i {
   color: #CFD8DC; }
 
 .social-item:visited {
@@ -610,17 +611,23 @@ a {
   padding-left: 0; }
   .posts-list > li {
     margin-bottom: 30px; }
+    .posts-list > li > span {
+      display: inline-block;
+      margin-bottom: 9px; }
     .posts-list > li > h2 {
-      margin-top: 0; }
+      margin-top: 0;
+      margin-bottom: 18px; }
     .posts-list > li > p {
-      margin-top: 0; }
+      margin-top: 0;
+      margin-bottom: 18px; }
 
 .post-meta {
   font-family: 'Dosis-light';
-  color: #455A64; }
+  color: #CFD8DC;
+  margin-bottom: 18px; }
 
 .post-link {
-  font-family: 'Dosis-bold';
+  font-family: 'Dosis-light';
   color: #607D8B;
   margin-top: 0; }
 
